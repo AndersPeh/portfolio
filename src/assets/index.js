@@ -45,8 +45,36 @@ import lovecalculator from "./lovecalculator.jpg";
 import snackEShop from "./snackEShop.jpg";
 import movieReviewer from "./movieReviewer.jpg";
 import todoApp from "./todoApp.jpg";
+import ecommerce from "./ecommerce.png";
+import glasses from "./glasses.jpg";
+import studentconnect from "./studentconnect.png";
+import hospital from "./company/hospital.jpg";
+import techreal from "./company/techreal.png";
+import scorpion from "./company/scorpion.png";
+import foresight from "./company/foresight.png";
+import littlecocoa from "./company/littlecocoa.jpg";
+import eastcoast from "./company/eastcoast.png";
+import dotnet from "./tech/dotnet.png";
+import csharp from "./tech/csharp.jpg";
+import sqlicon from "./tech/sqlicon.jpg";
+import react_native from "./tech/react_native.png";
+
 
 export {
+  dotnet,
+  csharp,
+  react_native,
+  sqlicon,
+  eastcoast,
+  littlecocoa,
+  foresight,
+  scorpion,
+  techreal,
+  hospital,
+  studentconnect,
+  glasses,
+  ecommerce,
+
   logo,
   java,
   backend,

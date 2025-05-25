@@ -1,133 +1,55 @@
-import { motion } from 'framer-motion'
-import emailjs from '@emailjs/browser'
-
-import { styles } from "../styles"
-import { SectionWrapper } from '../hoc'
-import {useRef, useState } from 'react'
-import { slideIn } from '../utils/motion'
-import { EarthCanvas } from './canvas'
-
-
-const USER_ID = import.meta.env.VITE_EMAILJS_USER_ID;
-const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+import { motion } from 'framer-motion';
+import { styles } from "../styles";
+import { SectionWrapper } from '../hoc';
+import { slideIn } from '../utils/motion';
+import { linkedin as linkedinIcon, github as githubIcon } from '../assets';
 
 const Contact = () => {
-  const formRef=useRef()
-  const [form, setForm] = useState({
-    name: '',
-    email: '',
-    message:'',
-  })
-
-  const [loading, setLoading] = useState(false)
-  
-  const _handleChange = (e) => {
-    const{name,value}=e.target
-    setForm({...form,[name]:value})
-  }
-
-  const templateParams = {
-    from_name: form.name,
-    to_name:'Jenny',
-    from_email: form.email,
-    to_email:'huntergarden666@gmail.com',
-    message: form.message,
-  };
-
-  const _handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-    emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, USER_ID).then(() => {
-      setLoading(false);
-      alert('Thank you. I will get back to you soon');
-      setForm({
-        name: '',
-        email: '',
-        message: '',
-      });
-    }, (error) => {
-      setLoading(false);
-      console.log(error);
-      alert('Something went wrong.')
-    })
-
-  }
+  const email = "pehjyfung@gmail.com";
+  const phone = "0488 711 030";
+  const linkedInUrl = "https://www.linkedin.com/in/anders-peh"; 
+  const githubUrl = "https://github.com/AndersPeh"; 
 
 
   return (
-    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
+    <div className='xl:mt-12 flex flex-col gap-10 overflow-hidden items-center'>
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.75] bg-black-100 p-8 rounded-2xl w-full md:w-3/4 lg:w-1/2'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-        <form
-          ref={formRef}
-          onSubmit={_handleSubmit}
-          className='mt-12 flex flex-col gap-8 '
-        >
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>
-            Your Name
-            </span>
-            <input
-              type="text"
-              name="name"
-              value={form.name}
-              onChange={_handleChange} 
-              placeholder="what's your name?"
-              className='bg-tertiary py-4 px-6 
-              placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
-             />
-          </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>
-            Your email
-            </span>
-            <input
-              type="text"
-              name="email"
-              value={form.email}
-              onChange={_handleChange} 
-              placeholder="what's your email?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
-             />
-          </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>
-            Your Message
-            </span>
-            <textarea
-              rows='7'
-              name="message"
-              value={form.message}
-              onChange={_handleChange} 
-              placeholder="what do you want to say?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
-             />
-          </label>
+        <div className='mt-12 flex flex-col gap-8'>
+          <div>
+            <h4 className='text-white font-medium mb-2'>Email</h4>
+            <a href={`mailto:${email}`} className='text-secondary hover:text-white break-all'>{email}</a>
+          </div>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-2 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
-          >
-          {loading? 'Sending...':'Send'}
-          </button>
-      </form>
-      </motion.div>
-      
-      <motion.div
-        variants={slideIn('right', 'tween', 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350]'
-      >
-        <EarthCanvas/>
-      </motion.div>
+          <div>
+            <h4 className='text-white font-medium mb-2'>Phone</h4>
+            <a href={`tel:${phone}`} className='text-secondary hover:text-white'>{phone}</a>
+          </div>
 
+          <div>
+            <h4 className='text-white font-medium mb-2'>LinkedIn</h4>
+            <a href={linkedInUrl} target="_blank" rel="noopener noreferrer" className='text-secondary hover:text-white flex items-center'>
+              <img src={linkedinIcon} alt="LinkedIn" className='w-6 h-6 object-contain mr-2' />
+              Visit LinkedIn Profile
+            </a>
+          </div>
+          <div>
+            <h4 className='text-white font-medium mb-2'>GitHub</h4>
+            <a href={githubUrl} target="_blank" rel="noopener noreferrer" className='text-secondary hover:text-white flex items-center'>
+              <img src={githubIcon} alt="GitHub" className='w-6 h-6 object-contain mr-2' />
+              Visit GitHub Profile
+            </a>
+          </div>
+          
+        </div>
+      </motion.div>
     </div>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Contact,'contact')
+export default SectionWrapper(Contact, 'contact');

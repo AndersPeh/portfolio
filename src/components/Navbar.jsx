@@ -23,17 +23,17 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">Jenny &nbsp;
-            <span className="sm:block hidden"> |     Full-Stack Web Developer</span></p>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">Jy Fung Peh (Anders) &nbsp;
+            <span className="sm:block hidden"> |     Working towards becoming a Software Developer</span></p>
           
             <div
-            onClick={()=>window.open('https://www.linkedin.com/in/jenny-zhong-840022239/','_blank')}
+            onClick={()=>window.open('https://www.linkedin.com/in/anders-peh','_blank')}
             className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img src={linkedin} alt="linkedin" className='w-1/2 h-1/2 object-contain' />
             </div>
             <div
-            onClick={()=>window.open('https://github.com/JennyZhong2022','_blank')}
+            onClick={()=>window.open('https://github.com/AndersPeh','_blank')}
             className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img src={github} alt="github" className='w-1/2 h-1/2 object-contain' />

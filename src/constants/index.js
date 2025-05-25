@@ -1,6 +1,6 @@
 import {
   backend,
-  java,
+  // java,
   creator,
   web,
   javascript,
@@ -9,36 +9,49 @@ import {
   css,
   reactjs,
   // redux,
-  tailwind,
+  // tailwind,
   nodejs,
-  mongodb,
+  // mongodb,
   git,
-  bootstrap,
-  nextJs,
-  scss,
-  nestJs,
-  spring,
-  aws,
+  dotnet,
+  csharp,
+  react_native,
+  sqlicon,
+  eastcoast,
+  littlecocoa,
+  foresight,
+  scorpion,
+  techreal,
+  hospital,
+  studentconnect,
+  glasses,
+  ecommerce,
+  // bootstrap,
+  // nextJs,
+  // scss,
+  // nestJs,
+  // spring,
+  // aws,
   // fireStore,
   // MUI,
   // django,
   // figma,
   // docker,
-  general_assembly,
-  medical_team,
-  victoria_state_gov,
-  slotmachine,
-  startasker,
-  booksnap,
-  dreamphotography,
-  snackEShop,
-  movieReviewer,
-  todoApp,
-  huntergarden,
-  lovecalculator,
+  // general_assembly,
+  // medical_team,
+  // victoria_state_gov,
+  // slotmachine,
+  // startasker,
+  // booksnap,
+  // dreamphotography,
+  // snackEShop,
+  // movieReviewer,
+  // todoApp,
+  // huntergarden,
+  // lovecalculator,
   // threejs,
-  python,
-  dreamlife,
+  // python,
+  // dreamlife,
 } from "../assets";
 
 export const navLinks = [
@@ -66,16 +79,12 @@ const services = [
     icon: reactjs,
   },
   {
-    title: "Frontend Developer",
-    icon: creator,
+    title: "React Native Developer",
+    icon: react_native,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Java Developer",
-    icon: java,
+    title: ".Net Developer",
+    icon: dotnet,
   },
   // {
   //   title: "Python Developer",
@@ -85,6 +94,18 @@ const services = [
 
 const technologies = [
   {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "React-Native",
+    icon: react_native,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -92,65 +113,71 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  {
-    name: "Scss",
-    icon: scss,
-  },
+  // {
+  //   name: "Scss",
+  //   icon: scss,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
+
+
   // {
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "git",
     icon: git,
   },
+  // {
+  //   name: "Bootstrap",
+  //   icon: bootstrap,
+  // },
+  // {
+  //   name: "Java",
+  //   icon: java,
+  // },
+  // {
+  //   name: "Spring",
+  //   icon: spring,
+  // },
+  // {
+  //   name: "AWS",
+  //   icon: aws,
+  // },
+  // {
+  //   name: "Next.js",
+  //   icon: nextJs,
+  // },
+  // {
+  //   name: "Nest.js",
+  //   icon: nestJs,
+  // },
   {
-    name: "Bootstrap",
-    icon: bootstrap,
+    name: ".Net",
+    icon: dotnet,
   },
   {
-    name: "Java",
-    icon: java,
+    name: "C#",
+    icon: csharp,
   },
   {
-    name: "Spring",
-    icon: spring,
-  },
-  {
-    name: "AWS",
-    icon: aws,
-  },
-  {
-    name: "Next.js",
-    icon: nextJs,
-  },
-  {
-    name: "Nest.js",
-    icon: nestJs,
+    name: "SQL",
+    icon: sqlicon,
   },
   // {
   //   name: "FireStore",
@@ -177,64 +204,86 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "Sales Customer Service Manager",
-  //   company_name: "Dreamlife Photos & Video",
-  //   icon:  dreamlife,
-  //   iconBg: "#E6DEDD",
-  //   date: "May 2015 - Oct 2017",
-  //   points: [
-  //     "Customized wedding packages to meet client needs and budgets, utilizing agile methods to boost sales by 26% year-over-year.",
-  //     "Coordinated with photographers, makeup artists, and clients to enhance satisfaction through superior communication. ",
-  //     "Handled inquiries and bookings efficiently, demonstrating strong organizational skills.",
-  //     " Quickly resolved customer issues, maintaining high service standards and minimizing complaints.",
-  //   ],
-  // },
   {
-    title: "Full stack Developer",
-    company_name: "General Assembly",
-    icon: general_assembly,
+    title: "IT Support (Casual)",
+    company_name: "Little Cocoa, Qld",
+    icon: littlecocoa,
     iconBg: "#383E56",
-    date: "Oct 2023 - Jan 2024",
+    date: "Oct 2024 to Current",
     points: [
-      "I successfully completed the React Development course and the Software Engineering Immersive program, where I not only met but exceeded project objectives within strict deadlines. Through these experiences, I've developed a robust full-stack development skill set, which I've applied to various projects. This includes working both independently and as part of a team, where my ability to manage time efficiently and collaborate effectively was key to our success.",
-      "I developed BookSnap, a single-page application that leverages the Google Books API for efficient reading list management, employing the MERN stack and Agile methodologies. This project, along with more Full Stack APPs, DreamPhotography and Star Tasker, demonstrates my holistic software development skills, encompassing everything from ideation to implementation.",
-      "My journey from health administration and sales customer service management to software engineering has been driven by a passion for problem-solving and creating impactful, user-centric software solutions. I am eager to continue this journey, seeking out new opportunities to grow, innovate, and contribute to meaningful projects in the tech world.",
+      "Successfully migrated https://littlecocoa.com.au to a new server by provisioning a server, configuring DNS settings and transferred web files using SFTP.",
+      "Collaborated with director and chocolatiers to improve customer experience, including adding custom snowfall effects, implementing options for selecting delivery methods and dates, restricted the availability of Christmas products to specific periods, and changed the calendar background to align with the company theme, enhancing the visual contrast between the calendar and the website background.",
+      "Automated processes between the ERP system and the website using n8n, enabling automatic replies to customer inquiries and streamlining the recording of customer and order details.",
     ],
   },
   {
-    title: "Victorian Government's Digital Jobs program Participant",
-    company_name: "Victoria State Government",
-    icon: victoria_state_gov,
+    title: "Web Designer (Volunteer)",
+    company_name: "East Coast Whale Study",
+    icon: eastcoast,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Apr 2023",
+    date: "September 2024 to Current",
     points: [
-      "I was honored to be selected to participate in a web development training focused on React development, which was hosted by the Victorian Government's Digital Jobs program.",
-      "Demonstrating pro-activeness, I undertook and successfully completed a solo project, showcasing my ability to apply theoretical knowledge in a real-world context.",
+      "Collaborate closely with the founding director to understand her vision and requirements, translating them into website features and content that effectively represent the charity's mission.",
+      "Carry out the development of a responsive, user-friendly website for the charity, built from scratch.",
+      "Website: https://eastcoastwhalestudy.com",
     ],
   },
   {
-    title: "Healthcare Receptionist & Secretary",
-    company_name: "Box Hill Mall Medical Center & Langton Medical Center",
-    icon: medical_team,
+    title: "Web Designer",
+    company_name: "Foresight Elite Services",
+    icon: foresight,
     iconBg: "#383E56",
-    date: "Nov 2017 - Present",
+    date: "February 2025",
     points: [
-      "Managed the Occupational Physician's schedule and handled bookings via phone and email with patients, insurers, and legal entities, boosting bookings by 30%-40%.",
-      "Enhanced office management and patient care by collaborating with medical and administrative staff.",
-      "Maintained confidentiality while handling sensitive information and complex inquiries, showcasing effective communication skills.",
+      "Built a custom website from scratch by understanding the business needs and collaborating directly with the director.",
+      "Created graphic elements using Canva to enhance the website's design.",
+      "Website: https://foresighteliteservices.com.au",
+    ],
+  },
+  {
+    title: "Web Designer",
+    company_name: "Scorpion International Tennis Academy",
+    icon: scorpion,
+    iconBg: "#383E56",
+    date: "January 2025",
+    points: [
+      "Developed web pages to showcase Brisbane tennis courses and Thai tennis tours, effectively attracting potential sign-ups.",
+      "Gathered requirements from the director to build a website tailored to the tennis academy’s specific needs.",
+      "Website: scorpiontennis.com.au.",
+    ],
+  },
+  {
+    title: "Desktop Deployment and Rollout Support",
+    company_name: "Gold Coast Private Hospital",
+    icon: hospital,
+    iconBg: "#383E56",
+    date: "January to February 2025",
+    points: [
+      "Coordinated with hospital staff to schedule desktop deployments, ensuring minimal disruption to hospital operations, especially in surgery rooms.",
+      "Deployed and configured new desktops for hospital staff, including nurses, doctors, and administrative personnel.",
+    ],
+  },
+  {
+    title: "Senior Real Estate Negotiator",
+    company_name: "Tech Real Estate Sdn Bhd, Malaysia",
+    icon: techreal,
+    iconBg: "#383E56",
+    date: "May 2022 to December 2023",
+    points: [
+      "Leveraged market knowledge and experience in transaction negotiations to secure landed properties with favorable terms for both property purchasers and sellers.",
+      "Achieved Monthly Top Achiever in September 2022 and April 2023.",
     ],
   },
 ];
 
 const projects = [
   {
-    name: "Task Tracking System",
+    name: "Student Connect",
     description:
-      "The Task Tracking System is a full-stack application designed to help users efficiently manage their tasks through a user-friendly interface. This application allows for task creation, editing, duplication, and deletion within customized categories.",
+      "StudentConnect is a personal project born from a passion for learning React and .NET, and a desire to solve a real-world problem for students. This social media application aims to be a dedicated platform for students from diverse universities to connect, collaborate, and interact.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -242,151 +291,80 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Java",
+        name: ".Net",
         color: "pink-text-gradient",
       },
       {
-        name: "Spring",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "react-hook-form",
+        name: "React-Hook-Form",
         color: "green-text-gradient",
       },
       {
-        name: "AWS",
-        color: "pink-text-gradient",
+        name: "React Query",
+        color: "green-text-gradient",
       },
+      // {
+      //   name: "AWS",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: todoApp,
-    source_code_link: "https://github.com/JennyZhong2022/to-do-list",
-    website_link:
-      "http://jennytodo-list.s3-website-ap-southeast-2.amazonaws.com/",
+    image: studentconnect,
+    source_code_link: "https://github.com/AndersPeh/StudentConnect",
+    website_link: "https://github.com/AndersPeh/StudentConnect",
   },
   {
-    name: "Pick Your Snack e-Shop",
+    name: "Ecommerce React Native App",
     description:
-      "A curated online shop for healthy snacks, aimed to combat the 3pm sugar crash. This full-stack web application offers a user-friendly experience where customers can browse, select, and purchase a variety of snacks. The project uses React for the frontend and Firebase FireStore for the backend, making the site dynamic and responsive.",
+      "An e-commerce platform that allows users to browse products, manage a shopping cart, and process orders, leveraging the Fake Store API for product data and a dedicated backend service for user and order management.",
     tags: [
       {
-        name: "react",
+        name: "React-Native",
         color: "blue-text-gradient",
       },
       {
-        name: "scss",
+        name: "Javascript",
         color: "green-text-gradient",
       },
-      {
-        name: "fireStore",
-        color: "pink-text-gradient",
-      },
+
     ],
-    image: snackEShop,
-    source_code_link: "https://github.com/JennyZhong2022/e-shop",
-    website_link: "https://jennyzhong2022.github.io/e-shop/",
+    image: ecommerce,
+    source_code_link: "https://github.com/AndersPeh/Ecommerce_MobileApp",
+    website_link: "https://github.com/AndersPeh/Ecommerce_MobileApp",
   },
 
   {
-    name: "Movie Reviewer",
+    name: "AR Try On Glasses",
     description:
-      "MovieReviewer is a MERN (MongoDB, Express.js, React, Node.js) full stack app that allows users to sign in, log in, browse movies, search movies, add movies to their favorite list, and write reviews for movies. It integrates with the TMDB (The Movie Database) API to fetch movie data dynamically.",
+      "This project allows users to virtually try on different pairs of glasses using Augmented Reality.",
     tags: [
+      
       {
-        name: "react",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongoose",
+        name: "Unity",
         color: "pink-text-gradient",
       },
       {
-        name: "scss",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express.js",
+        name: "AR Foundation",
         color: "pink-text-gradient",
       },
       {
-        name: "react-hook-form",
-        color: "green-text-gradient",
-      },
-    ],
-    image: movieReviewer,
-    source_code_link: "https://github.com/JennyZhong2022/movie-reviewer",
-    website_link: "https://movie-reviewer-client.onrender.com/",
-  },
-  {
-    name: "Slot Machine Game",
-    description:
-      "A browser based slot machine game. Immerse yourself in the atmosphere with realistic audio effects that enhance your game-play experience. Our game offers flexible betting options and with every spin being entirely random, you're guaranteed a unique and exciting experience every time you play.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
+        name: "Google ARCore XR Plugin",
         color: "pink-text-gradient",
       },
-    ],
-    image: slotmachine,
-    source_code_link: "https://github.com/JennyZhong2022/Slot-Machine",
-    website_link: "https://jennyzhong2022.github.io/Slot-Machine/",
-  },
-  {
-    name: "Hunter's Garden",
-    description:
-      "Hunter's Garden is an engaging single-page website created for a private pet-sitting service. It features the inspiring growth story of Hunter and owner. Moreover, the site is integrated with social media, providing links to the owner's Facebook and Instagram pages. The 'Contact' section is thoughtfully designed with direct email integration, enabling clients to communicate with the owner via a contact form. The website is responsive.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mui",
-        color: "green-text-gradient",
-      },
-      {
-        name: "emailjs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "chakra",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: huntergarden,
-    source_code_link: "https://github.com/JennyZhong2022/Hunter-And-Me",
-    website_link: "https://hunter-and-me.onrender.com",
-  },
 
-  {
-    name: "Love Calculator",
-    description:
-      "The Love Calculator React App is a delightful, user-friendly application built with React.js. It calculates the compatibility of a relationship by taking two names as input.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mui",
-        color: "green-text-gradient",
-      },
     ],
-    image: lovecalculator,
-    source_code_link: "https://github.com/JennyZhong2022/LoveCalculator",
-    website_link: "https://lovecalculator-jfxh.onrender.com",
+    image: glasses,
+    source_code_link: "https://github.com/AndersPeh/AR_Try_On_Glasses",
+    website_link: "https://www.youtube.com/watch?v=77nya6C8xmM",
   },
+  
+ 
 ];
 
 export { services, technologies, experiences, projects };

@@ -37,7 +37,7 @@ const About = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={`${styles.sectionHeadText} text-white`}>
-          Hi, I&apos;m <span className="text-[#357DB8]">Jenny </span>
+          Hi, I&apos;m <span className="text-[#357DB8]">Jy Fung Peh </span>
         </h2>
       </motion.div>
 
@@ -45,13 +45,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        With a background in health administration and customer service, I have
-        developed key skills such as attention to detail and problem-solving,
-        which are essential in software engineering. Experience in managing
-        complex systems and addressing user needs has provided a solid
-        foundation for developing efficient and user-friendly software
-        solutions. Looking forward, I aim to apply and expand these skills
-        through new opportunities in the tech industry.
+        I am actively developing my skills in React (Typescipt) and .Net (C#) by building a personal project, which is 
+        a platform designed to help students connect with other students from different universities. I am currently 
+        seeking a software development internship and am open to relocation. I am eager to apply my passion for 
+        software development to contribute to organisational projects and use my interpersonal skills to build strong 
+        work relationships.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
