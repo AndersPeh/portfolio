@@ -9,5 +9,5 @@ I am currently seeking a software development internship and am open to relocati
 I am eager to apply my passion for software development to contribute to organisational projects and use my interpersonal skills to build strong work relationships.
 
 ## Contact
-Please contact me at email:(pehjyfung@gmail.com).
+Please contact me at email: pehjyfung@gmail.com. 
 A design based on Jenny Zhong.
