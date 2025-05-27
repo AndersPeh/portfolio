@@ -37,6 +37,9 @@ import node from "./tech/node.png";
 import postman from "./tech/postman.png";
 import fluentValid from "./tech/fluentValid.png";
 import rrouter from "./tech/rrouter.png";
+import eastcoast_recommendation from "./eastcoast_recommendation.png";
+import scorpion_recommendation from "./scorpion_recommendation.png";
+import techreal_recommendation from "./techreal_recommendation.png";
 
 export {
   sql,
@@ -76,4 +79,7 @@ export {
   postman,
   fluentValid,
   rrouter,
+  eastcoast_recommendation,
+  scorpion_recommendation,
+  techreal_recommendation,
 };

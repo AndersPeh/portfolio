@@ -32,6 +32,9 @@ import {
   studentconnect,
   glasses,
   ecommerce,
+  eastcoast_recommendation,
+  scorpion_recommendation,
+  techreal_recommendation,
   // bootstrap,
   // nextJs,
   // scss,
@@ -61,10 +64,6 @@ export const navLinks = [
     title: "Projects",
   },
 
-  {
-    id: "recognition",
-    title: "Recognition",
-  },
   {
     id: "contact",
     title: "Contact",
@@ -200,6 +199,7 @@ const experiences = [
       "Carry out the development of a responsive, user-friendly website for the charity, built from scratch.",
       "Website: https://eastcoastwhalestudy.com",
     ],
+    recommendationImage: eastcoast_recommendation,
   },
   {
     title: "Web Designer (Contract)",
@@ -224,6 +224,7 @@ const experiences = [
       "Gathered requirements from the director to build a website tailored to the tennis academy’s specific needs.",
       "Website: https://scorpiontennis.com.au/",
     ],
+    recommendationImage: scorpion_recommendation,
   },
   {
     title: "Desktop Deployment and Rollout Support (Contract)",
@@ -245,6 +246,7 @@ const experiences = [
     points: [
       "Leveraged market knowledge and experience in transaction negotiations to secure landed properties with favorable terms for both property purchasers and sellers.",
     ],
+    recommendationImage: techreal_recommendation,
   },
 ];
 

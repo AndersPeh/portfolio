@@ -44,6 +44,16 @@ const ExperienceCard = ({ experience }) => (
         </li>
       ))}
     </ul>
+
+    {experience.recommendationImage && (
+      <div className="mt-5">
+        <img
+          src={experience.recommendationImage}
+          alt={`${experience.company_name} recommendation`}
+          className="w-full h-auto object-contain rounded-lg border border-[#9aedb6]  shadow-lg"
+        />
+      </div>
+    )}
   </VerticalTimelineElement>
 );
 

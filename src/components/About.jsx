@@ -58,7 +58,7 @@ const About = () => {
       </motion.p>
 
       <motion.p
-        variants={slideIn("left", "tween", 0.1, 1)}
+        variants={fadeIn("", "", 0.1, 1)}
         className="mt-10 text-[28px] text-[#9aedb6] font-extrabold text-center"
       >
         I'm seeking opportunity in
