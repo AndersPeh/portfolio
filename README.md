@@ -8,5 +8,4 @@ I am actively developing my skills in React (Typescipt) and .Net (C#) by buildin
 I am currently seeking a software development internship and am open to relocation. 
 I am eager to apply my passion for software development to contribute to organisational projects and use my interpersonal skills to build strong work relationships.
 
-## Contact
-Please contact me at email: pehjyfung@gmail.com. 
+ 
