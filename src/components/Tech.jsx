@@ -9,7 +9,9 @@ const Tech = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Experiences</h2>
+        <h2 className={`${styles.sectionHeadText} text-center mb-5`}>
+          Technical Skills
+        </h2>
       </motion.div>
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
