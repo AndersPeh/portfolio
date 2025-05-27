@@ -29,11 +29,11 @@ const ProjectCard = ({
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div onClick={() => window.open(website_link, "_blank")}>
-          <div className="relative w-full h-[500px]">
+          <div className="relative">
             <img
               src={image}
               alt={name}
-              className="w-full h-full object-cover rounded-2xl"
+              className="w-full h-auto max-h-[500px] object-contain rounded-2xl"
             />
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div
