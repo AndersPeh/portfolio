@@ -9,27 +9,10 @@ import close from "./close.svg";
 import python from "./python.png";
 import nextJs from "./tech/nextjs.png";
 import css from "./tech/css.png";
-import scss from "./tech/scss.png";
-import nestJs from "./tech/nestjs.png";
-import spring from "./tech/spring.png";
-import aws from "./tech/aws.png";
-// import docker from "./tech/docker.png";
-// import figma from "./tech/figma.png";
-import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import java from "./tech/java.png";
-// import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import bootstrap from "./tech/Bootstrap.svg";
 import typescript from "./tech/typescript.png";
-import MUI from "./tech/MUI.png";
-import django from "./tech/django-python.png";
-// import fireStore from "./tech/fireStore.jpg";
-// import threejs from "./tech/threejs.svg";
 import ecommerce from "./ecommerce.png";
 import glasses from "./glasses.jpg";
 import studentconnect from "./studentconnect.png";
@@ -40,16 +23,26 @@ import foresight from "./company/foresight.png";
 import littlecocoa from "./company/littlecocoa.jpg";
 import eastcoast from "./company/eastcoast.png";
 import dotnet from "./tech/dotnet.png";
-import csharp from "./tech/csharp.jpg";
-import sqlicon from "./tech/sqlicon.jpg";
-import react_native from "./tech/react_native.png";
-
+import csharp from "./tech/csharp.png";
+import sql from "./tech/sql.png";
+import reactnative from "./tech/reactnative.png";
+import cleanArchi from "./tech/cleanArchi.png";
+import hookForm from "./tech/hookForm.png";
+import mobx from "./tech/mobx.png";
+import mui from "./tech/mui.png";
+import rquery from "./tech/rquery.png";
+import axios from "./tech/axios.png";
+import fullstack from "./tech/fullstack.png";
+import node from "./tech/node.png";
+import postman from "./tech/postman.png";
+import fluentValid from "./tech/fluentValid.png";
+import rrouter from "./tech/rrouter.png";
 
 export {
+  sql,
   dotnet,
   csharp,
-  react_native,
-  sqlicon,
+  reactnative,
   eastcoast,
   littlecocoa,
   foresight,
@@ -59,38 +52,28 @@ export {
   studentconnect,
   glasses,
   ecommerce,
-
   logo,
-  java,
   backend,
   creator,
   web,
-  github,
   linkedin,
   menu,
   close,
   css,
-  scss,
-  nestJs,
-  spring,
-  aws,
-  // docker,
-  // figma,
-  git,
+  github,
   html,
   javascript,
-  mongodb,
-  nodejs,
   reactjs,
-  python,
-  // fireStore,
-  // redux,
-  tailwind,
-  bootstrap,
-  MUI,
-  django,
   typescript,
-  nextJs,
-  // threejs,
-  
+  cleanArchi,
+  hookForm,
+  mobx,
+  mui,
+  rquery,
+  axios,
+  fullstack,
+  node,
+  postman,
+  fluentValid,
+  rrouter,
 };

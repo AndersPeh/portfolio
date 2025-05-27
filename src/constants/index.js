@@ -1,8 +1,4 @@
 import {
-  backend,
-  // java,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -10,13 +6,23 @@ import {
   reactjs,
   // redux,
   // tailwind,
-  nodejs,
   // mongodb,
-  git,
+  github,
   dotnet,
   csharp,
-  react_native,
-  sqlicon,
+  reactnative,
+  sql,
+  cleanArchi,
+  hookForm,
+  mobx,
+  mui,
+  rquery,
+  axios,
+  fullstack,
+  node,
+  postman,
+  fluentValid,
+  rrouter,
   eastcoast,
   littlecocoa,
   foresight,
@@ -37,19 +43,6 @@ import {
   // django,
   // figma,
   // docker,
-  // general_assembly,
-  // medical_team,
-  // victoria_state_gov,
-  // slotmachine,
-  // startasker,
-  // booksnap,
-  // dreamphotography,
-  // snackEShop,
-  // movieReviewer,
-  // todoApp,
-  // huntergarden,
-  // lovecalculator,
-  // threejs,
   // python,
   // dreamlife,
 } from "../assets";
@@ -79,36 +72,85 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Software Developer",
-    icon: web,
+    title: "Full-Stack Software Development",
+    icon: fullstack,
   },
   {
-    title: "React Developer",
+    title: "Frontend Development",
     icon: reactjs,
   },
   {
-    title: "React Native Mobile App Developer",
-    icon: react_native,
+    title: "Backend Development",
+    icon: dotnet,
   },
   {
-    title: ".Net Developer",
-    icon: dotnet,
+    title: "Mobile App Development",
+    icon: reactnative,
   },
 ];
 
 const technologies = [
   {
+    name: "Clean Architecture",
+    icon: cleanArchi,
+  },
+  {
+    name: ".Net",
+    icon: dotnet,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "Fluent Validation",
+    icon: fluentValid,
+  },
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "Postman",
+    icon: postman,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "React-Native",
-    icon: react_native,
+    name: "React Native",
+    icon: reactnative,
+  },
+  {
+    name: "Mobx",
+    icon: mobx,
+  },
+  {
+    name: "React Query",
+    icon: rquery,
+  },
+  {
+    name: "Axios",
+    icon: axios,
+  },
+  {
+    name: "React Router",
+    icon: rrouter,
+  },
+  {
+    name: "React Hook Form",
+    icon: hookForm,
+  },
+  {
+    name: "Node JS",
+    icon: node,
   },
   {
     name: "TypeScript",
     icon: typescript,
   },
+
   {
     name: "HTML 5",
     icon: html,
@@ -123,32 +165,13 @@ const technologies = [
     icon: javascript,
   },
 
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-
-  {
-    name: "git",
-    icon: git,
-  },
-
-  {
-    name: ".Net",
-    icon: dotnet,
+    name: "GitHub",
+    icon: github,
   },
   {
-    name: "C#",
-    icon: csharp,
-  },
-  {
-    name: "SQL",
-    icon: sqlicon,
+    name: "Material UI",
+    icon: mui,
   },
 ];
 
