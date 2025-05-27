@@ -11,7 +11,7 @@ import { SectionWrapper } from "../hoc";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    contentStyle={{ background: "#091235", color: "#fff" }}
+    contentStyle={{ background: "#151030", color: "#fff" }}
     contentArrowStyle={{ borderRight: "7px solid #232631" }}
     date={experience.date}
     dateClassName="!text-[#9aedb6] !font-extrabold"

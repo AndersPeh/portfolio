@@ -20,14 +20,15 @@ const ProjectCard = ({
     <motion.div
     // variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
     >
-      <Tilt
+      {/* <Tilt
         option={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-      >
+        className=""
+      > */}
+      <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
         <div onClick={() => window.open(website_link, "_blank")}>
           <div className="relative">
             <img
@@ -64,7 +65,7 @@ const ProjectCard = ({
             ))}
           </div>
         </div>
-      </Tilt>
+      </div>
     </motion.div>
   );
 };
