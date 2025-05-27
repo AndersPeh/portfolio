@@ -1,13 +1,11 @@
-import { SectionWrapper } from '../hoc'
+import { SectionWrapper } from "../hoc";
 
 const Footer = () => {
   return (
-    <footer  className="text-secondary text-[12px]  flex justify-center items-center"
->
-  Jy Fung Peh Portfolio based on Jenny Zhong &copy;
+    <footer className="text-secondary text-[10px] font-extralight flex justify-end items-center">
+      Jy Fung Peh Portfolio based on Jenny Zhong &copy;
     </footer>
-  )
-}
+  );
+};
 
-
-export default SectionWrapper(Footer,'')
+export default SectionWrapper(Footer, "");

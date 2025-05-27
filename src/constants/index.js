@@ -107,12 +107,16 @@ const technologies = [
     icon: fluentValid,
   },
   {
+    name: "Postman",
+    icon: postman,
+  },
+  {
     name: "SQL",
     icon: sql,
   },
   {
-    name: "Postman",
-    icon: postman,
+    name: "Node JS",
+    icon: node,
   },
   {
     name: "React JS",
@@ -142,10 +146,7 @@ const technologies = [
     name: "React Hook Form",
     icon: hookForm,
   },
-  {
-    name: "Node JS",
-    icon: node,
-  },
+
   {
     name: "TypeScript",
     icon: typescript,
@@ -268,15 +269,23 @@ const projects = [
       },
       {
         name: "C#",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Postman",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Mobx",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Clean Architecture",
         color: "blue-text-gradient",
-      },
-      {
-        name: "React-Hook-Form",
-        color: "green-text-gradient",
-      },
-      {
-        name: "React Query",
-        color: "green-text-gradient",
       },
     ],
     image: studentconnect,
@@ -290,11 +299,15 @@ const projects = [
     tags: [
       {
         name: "React-Native",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "Javascript",
         color: "green-text-gradient",
+      },
+      {
+        name: "Redux Thunk",
+        color: "pink-text-gradient",
       },
     ],
     image: ecommerce,
@@ -305,23 +318,19 @@ const projects = [
   {
     name: "AR Try On Glasses",
     description:
-      "This project allows users to virtually try on different pairs of glasses using Augmented Reality.",
+      "This project allows users to virtually try on different pairs of glasses using Augmented Reality. Click to checkout our demo video.",
     tags: [
       {
         name: "C#",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "Unity",
         color: "pink-text-gradient",
       },
       {
-        name: "AR Foundation",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Google ARCore XR Plugin",
-        color: "pink-text-gradient",
+        name: "Google ARCore",
+        color: "blue-text-gradient",
       },
     ],
     image: glasses,

@@ -9,7 +9,7 @@ const Tech = () => {
         <div className="w-28 h-28 mb-8 group" key={technology.name}>
           {/* <BallCanvas icon={technology.icon} /> */}
           <img
-            className="w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-120"
+            className="w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-125"
             src={technology.icon}
             alt={technology.name}
           />
