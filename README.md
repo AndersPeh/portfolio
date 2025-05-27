@@ -10,4 +10,3 @@ I am eager to apply my passion for software development to contribute to organis
 
 ## Contact
 Please contact me at email: pehjyfung@gmail.com. 
-A design based on Jenny Zhong.
