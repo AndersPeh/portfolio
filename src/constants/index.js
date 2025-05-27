@@ -53,13 +53,14 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "experiences",
+    title: "Experiences",
+  },
+  {
     id: "projects",
     title: "Projects",
   },
-  {
-    id: "experience",
-    title: "Experience",
-  },
+
   {
     id: "recognition",
     title: "Recognition",
@@ -165,14 +166,13 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-
-  {
-    name: "GitHub",
-    icon: github,
-  },
   {
     name: "Material UI",
     icon: mui,
+  },
+  {
+    name: "GitHub",
+    icon: github,
   },
 ];
 
@@ -185,25 +185,25 @@ const experiences = [
     date: "Oct 2024 to Current",
     points: [
       "Successfully migrated https://littlecocoa.com.au to a new server by provisioning a server, configuring DNS settings and transferred web files using SFTP.",
-      "Collaborated with director and chocolatiers to improve customer experience, including adding custom snowfall effects, implementing options for selecting delivery methods and dates, restricted the availability of Christmas products to specific periods, and changed the calendar background to align with the company theme, enhancing the visual contrast between the calendar and the website background.",
+      "Collaborated with director and chocolatiers to improve customer experience.",
       "Automated processes between the ERP system and the website using n8n, enabling automatic replies to customer inquiries and streamlining the recording of customer and order details.",
     ],
   },
   {
     title: "Web Designer (Volunteer)",
-    company_name: "East Coast Whale Study",
+    company_name: "East Coast Whale Study, Qld",
     icon: eastcoast,
     iconBg: "#E6DEDD",
     date: "September 2024 to Current",
     points: [
-      "Collaborate closely with the founding director to understand her vision and requirements, translating them into website features and content that effectively represent the charity's mission.",
+      "Collaborate closely with the founding director to understand her vision and requirements, translating them into website features and content that effectively represent the Not-for-profit organisation's mission.",
       "Carry out the development of a responsive, user-friendly website for the charity, built from scratch.",
       "Website: https://eastcoastwhalestudy.com",
     ],
   },
   {
-    title: "Web Designer",
-    company_name: "Foresight Elite Services",
+    title: "Web Designer (Contract)",
+    company_name: "Foresight Elite Services, Qld",
     icon: foresight,
     iconBg: "#383E56",
     date: "February 2025",
@@ -214,19 +214,19 @@ const experiences = [
     ],
   },
   {
-    title: "Web Designer",
-    company_name: "Scorpion International Tennis Academy",
+    title: "Web Designer (Contract)",
+    company_name: "Scorpion International Tennis Academy, Qld",
     icon: scorpion,
     iconBg: "#383E56",
     date: "January 2025",
     points: [
       "Developed web pages to showcase Brisbane tennis courses and Thai tennis tours, effectively attracting potential sign-ups.",
       "Gathered requirements from the director to build a website tailored to the tennis academy’s specific needs.",
-      "Website: scorpiontennis.com.au.",
+      "Website: https://scorpiontennis.com.au/",
     ],
   },
   {
-    title: "Desktop Deployment and Rollout Support",
+    title: "Desktop Deployment and Rollout Support (Contract)",
     company_name: "Gold Coast Private Hospital",
     icon: hospital,
     iconBg: "#383E56",
@@ -237,14 +237,13 @@ const experiences = [
     ],
   },
   {
-    title: "Senior Real Estate Negotiator",
+    title: "Senior Real Estate Negotiator (Full Time)",
     company_name: "Tech Real Estate Sdn Bhd, Malaysia",
     icon: techreal,
     iconBg: "#383E56",
     date: "May 2022 to December 2023",
     points: [
       "Leveraged market knowledge and experience in transaction negotiations to secure landed properties with favorable terms for both property purchasers and sellers.",
-      "Achieved Monthly Top Achiever in September 2022 and April 2023.",
     ],
   },
 ];
