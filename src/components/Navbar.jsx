@@ -15,16 +15,17 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to='/'
+          to='/portfolio/'
           className="flex items-center gap-2"
           onClick={() => {
             SetActive('')
             window.scrollTo(0,0)
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">Jy Fung Peh (Anders) &nbsp;
-            <span className="sm:block hidden"> |     Working towards becoming a Software Developer</span></p>
+          <img src={logo} alt="logo" className="w-10 h-10 object-contain" />
+
+          <p className="text-white text-[18px] font-bold cursor-pointer flex flex-col md:flex-row md:items-baseline">Anders Peh &nbsp;
+            <span className="block md:inline text-[14px] sm:text-[18px]"> | Seeking Tech Internship</span></p>
           
             <div
             onClick={()=>window.open('https://www.linkedin.com/in/anders-peh','_blank')}
@@ -43,12 +44,12 @@ const Navbar = () => {
         
         
 
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden lg:flex flex-row gap-10">
           {navLinks.map((link)=>(
             <li key={link.id}
               className={`${active === link.title
-                  ? 'text-white'
-                  : 'text-secondary'
+                  ? 'text-[#3EB489]'
+                  : 'text-white'
                 } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => SetActive(link.title)}
             >
@@ -57,7 +58,7 @@ const Navbar = () => {
           ))}
 
         </ul>
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="lg:hidden flex justify-end items-center">
           <img src={toggle?close:menu}
             alt="menu"
             className="w-[28px] h-[28px]
@@ -69,8 +70,8 @@ const Navbar = () => {
           {navLinks.map((link)=>(
             <li key={link.id}
               className={`${active === link.title
-                ? 'text-white'
-                : 'text-secondary'
+                 ? 'text-[#3EB489]'
+                  : 'text-white'
                 } font-poppins font-medium cursor-pointer text-[16px]`}
               onClick={() => {
                 SetActive(link.title);

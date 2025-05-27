@@ -41,3 +41,4 @@ Languages: English, Mandarin, Malay, Cantonese
 Referee
 Name: Laura Torre	Position: Director of East Coast Whale Study	Email: whaleprincess@hotmail.com
 
+Whenever there is any changes, do: npm run deploy

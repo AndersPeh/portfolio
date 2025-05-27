@@ -57,7 +57,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
   </motion.div>)
 }
 
-const Works = () => {
+const Projects = () => {
 
 
 
@@ -66,8 +66,7 @@ const Works = () => {
       <motion.div
         // variants={textVariant()}
       >
-      <p className={styles.sectionSubText}>My Work</p>
-        <h2 className={styles.sectionHeadText}>Project.</h2>
+      <p className={styles.sectionHeadText}>Projects</p>
       </motion.div>
 
       <div className='w-full flex'>
@@ -75,7 +74,7 @@ const Works = () => {
           // variants={fadeIn('', '', 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following projects showcase my skills and experience with real-world examples of my work. Each one was completed within one week. Click on a card to visit the project's website, or click on the GitHub icon to go to the GitHub repository. 
+          The following projects showcase my skills in developing personal and university projects. Click on a card to visit the project's GitHub. 
       </motion.p>
       </div>
 
@@ -96,4 +95,4 @@ const Works = () => {
     )
 }
 
-export default SectionWrapper(Works,'work')
+export default SectionWrapper(Projects,'projects')

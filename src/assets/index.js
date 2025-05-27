@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import web from "./web.png";
@@ -30,21 +30,6 @@ import MUI from "./tech/MUI.png";
 import django from "./tech/django-python.png";
 // import fireStore from "./tech/fireStore.jpg";
 // import threejs from "./tech/threejs.svg";
-
-import general_assembly from "./company/general_assembly.png";
-import dreamlife from "./company/dreamlife.png";
-import medical_team from "./company/medical_team.png";
-import victoria_state_gov from "./company/victoria_state_government.svg";
-
-import slotmachine from "./slotmachine.jpeg";
-import startasker from "./startasker.jpeg";
-import booksnap from "./booksnap.jpeg";
-import dreamphotography from "./dreamphotography.jpeg";
-import huntergarden from "./huntergarden.jpeg";
-import lovecalculator from "./lovecalculator.jpg";
-import snackEShop from "./snackEShop.jpg";
-import movieReviewer from "./movieReviewer.jpg";
-import todoApp from "./todoApp.jpg";
 import ecommerce from "./ecommerce.png";
 import glasses from "./glasses.jpg";
 import studentconnect from "./studentconnect.png";
@@ -107,17 +92,5 @@ export {
   typescript,
   nextJs,
   // threejs,
-  general_assembly,
-  victoria_state_gov,
-  medical_team,
-  dreamlife,
-  slotmachine,
-  startasker,
-  booksnap,
-  dreamphotography,
-  huntergarden,
-  lovecalculator,
-  snackEShop,
-  movieReviewer,
-  todoApp,
+  
 };
