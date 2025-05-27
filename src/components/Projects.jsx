@@ -83,8 +83,8 @@ const Projects = () => {
           // variants={fadeIn('', '', 0.1, 1)}
           className="mt-5 text-[20px] leading-[30px]"
         >
-          The following projects showcase my skills in developing personal and
-          university projects. Click on a card to visit the project's GitHub.
+          The following projects showcase my passion in software development
+          through projects. Click on a card to visit the project's GitHub.
         </motion.p>
       </div>
 
