@@ -48,7 +48,7 @@ const ExperienceCard = ({ experience, onImageClick }) => (
 
     {experience.recommendationImage && (
       <>
-        <p className=" text-[16px] font-extrabold">
+        <p className=" text-[16px] font-extrabold text-[#9aedb6]">
           Recognition: Click to Zoom In
         </p>
         <div className="mt-2">

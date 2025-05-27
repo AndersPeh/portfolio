@@ -184,7 +184,7 @@ const experiences = [
     date: "Oct 2024 to Current",
     points: [
       "Successfully migrated https://littlecocoa.com.au to a new server by provisioning a server, configuring DNS settings and transferred web files using SFTP.",
-      "Collaborated with director and chocolatiers to improve customer experience.",
+      "Collaborated with director and chocolatiers to improve user experience of the website.",
       "Automated processes between the ERP system and the website using n8n, enabling automatic replies to customer inquiries and streamlining the recording of customer and order details.",
     ],
   },

@@ -58,7 +58,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-10 text-[28px] text-[#9aedb6] font-extrabold text-center"
       >
-        I'm seeking opportunity in
+        I'm looking for opportunity in
       </motion.p>
 
       <div className="mt-5 flex flex-wrap gap-10 items-center justify-center">
