@@ -8,8 +8,10 @@ import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
+import React, { useState } from "react";
+import ImageModal from "./ImageModal";
 
-const ExperienceCard = ({ experience }) => (
+const ExperienceCard = ({ experience, onImageClick }) => (
   <VerticalTimelineElement
     contentStyle={{ background: "#151030", color: "#fff" }}
     contentArrowStyle={{ borderRight: "7px solid #232631" }}
@@ -33,7 +35,6 @@ const ExperienceCard = ({ experience }) => (
       <p className=" text-[16px] font-semibold">{experience.company_name}</p>
     </div>
 
-    {/* space-y-2: Tin CSS,  :not(:last-child) pseudo-class to apply margin to all child elements except the last one. margin-bottom: 0.5rem*/}
     <ul className="mt-5 list-disc ml-5 space-y-2">
       {experience.points.map((point, index) => (
         <li
@@ -46,18 +47,37 @@ const ExperienceCard = ({ experience }) => (
     </ul>
 
     {experience.recommendationImage && (
-      <div className="mt-5">
-        <img
-          src={experience.recommendationImage}
-          alt={`${experience.company_name} recommendation`}
-          className="w-full h-auto object-contain rounded-lg border border-[#9aedb6]  shadow-lg"
-        />
-      </div>
+      <>
+        <p className=" text-[16px] font-extrabold">
+          Recognition: Click to Zoom In
+        </p>
+        <div className="mt-2">
+          <img
+            src={experience.recommendationImage}
+            alt={`${experience.company_name} recommendation`}
+            className="w-full h-auto object-contain rounded-lg border border-[#9aedb6] shadow-lg cursor-pointer hover:opacity-80 transition-opacity"
+            onClick={() => onImageClick(experience.recommendationImage)}
+          />
+        </div>
+      </>
     )}
   </VerticalTimelineElement>
 );
 
 const Experiences = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedImageUrl, setSelectedImageUrl] = useState("");
+
+  const handleOpenModal = (imageUrl) => {
+    setSelectedImageUrl(imageUrl);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedImageUrl("");
+  };
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -67,10 +87,20 @@ const Experiences = () => {
       <div className=" flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience} />
+            <ExperienceCard
+              key={index}
+              experience={experience}
+              onImageClick={handleOpenModal}
+            />
           ))}
         </VerticalTimeline>
       </div>
+      <ImageModal
+        src={selectedImageUrl}
+        alt="Recommendation Zoomed In"
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+      />
     </>
   );
 };
