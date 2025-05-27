@@ -16,8 +16,8 @@ const Navbar = () => {
       const activationLineInViewport = 80;
 
       // Because hash-span is 100 which means the content of a Section starts after 100 px of the section. In order to display active title accurately,
-      // a section should only become active after its hash-span has been scrolled past the NavBar height of 80px, which will be extra 20 px beyond the browser, thus -20px.
-      const effectiveThresholdForHashSpan = activationLineInViewport - 100;
+      // a section should only become active after its hash-span has been scrolled past the NavBar height of 80px.
+      const effectiveThresholdForHashSpan = activationLineInViewport;
 
       let newActive = "";
 
@@ -47,13 +47,19 @@ const Navbar = () => {
         SetActive(newActive);
       }
     };
+    // passive true means browser doesnt wait for javascript to finish running before continuing the scrooll, smoother scrolling performance.
+    // It notifies handleScroll whenever user scrolls, then handleScroll will get position of sections to determine which section is active.
     window.addEventListener("scroll", handleScroll, { passive: true });
 
     handleScroll();
 
+    // remove listener when the component is about to unmount to prevent memory leaks. When NavBar component is removed from the UI or before the effect runs again.
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
+    // useEffect runs when the component mounts initially or when active/ SetActive changes. So event listener will stay active from the beginning to listen to scrolls.
+    // When user scrolls to a new section, handleScroll identifies newActive, then SetActive is executed
+    // and active will be changed which triggers useEffect to cleanup old listener, create new handleScroll with updated active value + new event listener.
   }, [active, SetActive]);
 
   return (
@@ -110,14 +116,15 @@ const Navbar = () => {
             <li
               key={link.id}
               className={`${
-                active === link.title ? "text-[#3EB489]" : "text-white"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+                active === link.title ? "text-[#9aedb6]" : "text-white"
+              } hover:text-[#b1a1ed] text-[18px] font-bold cursor-pointer`}
               onClick={() => SetActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
+
         <div className="lg:hidden flex justify-end items-center">
           <img
             src={toggle ? close : menu}

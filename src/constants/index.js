@@ -64,6 +64,14 @@ export const navLinks = [
     title: "Projects",
   },
   {
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "recognition",
+    title: "Recognition",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -71,7 +79,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Web Developer",
+    title: "Full-Stack Software Developer",
     icon: web,
   },
   {
@@ -79,17 +87,13 @@ const services = [
     icon: reactjs,
   },
   {
-    title: "React Native Developer",
+    title: "React Native Mobile App Developer",
     icon: react_native,
   },
   {
     title: ".Net Developer",
     icon: dotnet,
   },
-  // {
-  //   title: "Python Developer",
-  //   icon: python,
-  // },
 ];
 
 const technologies = [
@@ -113,60 +117,27 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  // {
-  //   name: "Scss",
-  //   icon: scss,
-  // },
+
   {
     name: "JavaScript",
     icon: javascript,
   },
 
-
   // {
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
+
   {
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
+
   {
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "Bootstrap",
-  //   icon: bootstrap,
-  // },
-  // {
-  //   name: "Java",
-  //   icon: java,
-  // },
-  // {
-  //   name: "Spring",
-  //   icon: spring,
-  // },
-  // {
-  //   name: "AWS",
-  //   icon: aws,
-  // },
-  // {
-  //   name: "Next.js",
-  //   icon: nextJs,
-  // },
-  // {
-  //   name: "Nest.js",
-  //   icon: nestJs,
-  // },
+
   {
     name: ".Net",
     icon: dotnet,
@@ -179,28 +150,6 @@ const technologies = [
     name: "SQL",
     icon: sqlicon,
   },
-  // {
-  //   name: "FireStore",
-  //   icon: fireStore,
-  // },
-
-  // {
-  //   name: "Python",
-  //   icon: python,
-  // },
-  // {
-  //   name: "Django",
-  //   icon: django,
-  // },
-
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
 ];
 
 const experiences = [
@@ -306,10 +255,6 @@ const projects = [
         name: "React Query",
         color: "green-text-gradient",
       },
-      // {
-      //   name: "AWS",
-      //   color: "pink-text-gradient",
-      // },
     ],
     image: studentconnect,
     source_code_link: "https://github.com/AndersPeh/StudentConnect",
@@ -328,7 +273,6 @@ const projects = [
         name: "Javascript",
         color: "green-text-gradient",
       },
-
     ],
     image: ecommerce,
     source_code_link: "https://github.com/AndersPeh/Ecommerce_MobileApp",
@@ -340,7 +284,6 @@ const projects = [
     description:
       "This project allows users to virtually try on different pairs of glasses using Augmented Reality.",
     tags: [
-      
       {
         name: "C#",
         color: "blue-text-gradient",
@@ -357,14 +300,11 @@ const projects = [
         name: "Google ARCore XR Plugin",
         color: "pink-text-gradient",
       },
-
     ],
     image: glasses,
     source_code_link: "https://github.com/AndersPeh/AR_Try_On_Glasses",
     website_link: "https://www.youtube.com/watch?v=77nya6C8xmM",
   },
-  
- 
 ];
 
 export { services, technologies, experiences, projects };
