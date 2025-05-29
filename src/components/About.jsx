@@ -44,14 +44,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-justify text-[17px] leading-[30px]"
       >
-        I am actively developing my skills in{" "}
-        <span className="text-[#9aedb6] font-bold">React (Typescipt)</span> and{" "}
-        <span className="text-[#9aedb6] font-bold">.Net (C#)</span> by building
-        a personal project, which is a platform designed to help students
-        connect with other students from different universities. I am eager to
-        apply my passion for software development to contribute to
-        organisational projects and use my interpersonal skills to build strong
-        work relationships. I am open to relocation.
+        A motivated software development student actively developing full-stack
+        skills in{" "}
+        <span className="text-[#9aedb6] font-bold">React (TypeScipt)</span> and{" "}
+        <span className="text-[#9aedb6] font-bold">.NET (C#)</span> through my
+        personal project in my free time. I am eager to learn from experienced
+        developers while contributing to a team, so I am seeking a software
+        development internship to start from July or earlier. Open to
+        relocation.
       </motion.p>
 
       <motion.p

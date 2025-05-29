@@ -40,6 +40,7 @@ import rrouter from "./tech/rrouter.png";
 import eastcoast_recommendation from "./eastcoast_recommendation.png";
 import scorpion_recommendation from "./scorpion_recommendation.png";
 import techreal_recommendation from "./techreal_recommendation.png";
+import ef from "./tech/entityFramework.png";
 
 export {
   sql,
@@ -82,4 +83,5 @@ export {
   eastcoast_recommendation,
   scorpion_recommendation,
   techreal_recommendation,
+  ef,
 };

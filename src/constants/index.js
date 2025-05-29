@@ -23,6 +23,7 @@ import {
   postman,
   fluentValid,
   rrouter,
+  ef,
   eastcoast,
   littlecocoa,
   foresight,
@@ -95,7 +96,7 @@ const technologies = [
     icon: cleanArchi,
   },
   {
-    name: ".Net",
+    name: ".NET",
     icon: dotnet,
   },
   {
@@ -107,6 +108,10 @@ const technologies = [
     icon: fluentValid,
   },
   {
+    name: "EF Core",
+    icon: ef,
+  },
+  {
     name: "Postman",
     icon: postman,
   },
@@ -114,10 +119,7 @@ const technologies = [
     name: "SQL",
     icon: sql,
   },
-  {
-    name: "Node JS",
-    icon: node,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -146,7 +148,10 @@ const technologies = [
     name: "React Hook Form",
     icon: hookForm,
   },
-
+  {
+    name: "Node JS",
+    icon: node,
+  },
   {
     name: "TypeScript",
     icon: typescript,
@@ -165,6 +170,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
+
   {
     name: "Material UI",
     icon: mui,
@@ -254,7 +260,7 @@ const projects = [
   {
     name: "Student Connect",
     description:
-      "StudentConnect is a personal project born from a passion for learning React and .NET, and a desire to solve a real-world problem for students. This social media application aims to be a dedicated platform for students from diverse universities to connect, collaborate, and interact.",
+      "Identified a lack of a centralised platform for 1.6 million university students in Australia to connect across universities. Currently developing a full-stack application using React and .NET to address the need.",
     tags: [
       {
         name: "React",
@@ -265,7 +271,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: ".Net",
+        name: ".NET",
         color: "pink-text-gradient",
       },
       {
