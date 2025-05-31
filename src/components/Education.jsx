@@ -24,7 +24,7 @@ const EducationCard = ({ education, onImageClick }) => {
       {education.recommendation_image && (
         <div className="mt-5">
           <p className="text-[#9aedb6] text-[16px] font-semibold mb-2">
-            Recommendation Letter:
+            Recommendation Letter from Pro Vice Chancellor
           </p>
           <img
             src={education.recommendation_image}
@@ -38,7 +38,7 @@ const EducationCard = ({ education, onImageClick }) => {
       {education.scholarship_image && (
         <div className="mt-5">
           <p className="text-[#9aedb6] text-[16px] font-semibold mb-2">
-            Scholarship:
+            Vice Chancellor 50% Scholarship
           </p>
           <img
             src={education.scholarship_image}
