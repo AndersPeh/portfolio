@@ -36,6 +36,9 @@ import {
   eastcoast_recommendation,
   scorpion_recommendation,
   techreal_recommendation,
+  griffith,
+  griffith_recommendation,
+  griffith_scholarship,
   // bootstrap,
   // nextJs,
   // scss,
@@ -64,7 +67,10 @@ export const navLinks = [
     id: "projects",
     title: "Projects",
   },
-
+  {
+    id: "education",
+    title: "Education",
+  },
   {
     id: "contact",
     title: "Contact",
@@ -187,7 +193,7 @@ const experiences = [
     company_name: "Little Cocoa, Qld",
     icon: littlecocoa,
     iconBg: "#383E56",
-    date: "Oct 2024 to Current",
+    date: "Oct 2024 - April 2025",
     points: [
       "Successfully migrated https://littlecocoa.com.au to a new server by provisioning a server, configuring DNS settings and transferred web files using SFTP.",
       "Collaborated with director and chocolatiers to improve user experience of the website.",
@@ -199,11 +205,11 @@ const experiences = [
     company_name: "East Coast Whale Study, Qld",
     icon: eastcoast,
     iconBg: "#E6DEDD",
-    date: "September 2024 to Current",
+    date: "September 2024 - Current",
     points: [
       "Collaborate closely with the founding director to understand her vision and requirements, translating them into website features and content that effectively represent the Not-for-profit organisation's mission.",
       "Carry out the development of a responsive, user-friendly website for the charity, built from scratch.",
-      "Website: https://eastcoastwhalestudy.com",
+      "https://eastcoastwhalestudy.com",
     ],
     recommendationImage: eastcoast_recommendation,
   },
@@ -216,7 +222,7 @@ const experiences = [
     points: [
       "Built a custom website from scratch by understanding the business needs and collaborating directly with the director.",
       "Created graphic elements using Canva to enhance the website's design.",
-      "Website: https://foresighteliteservices.com.au",
+      "https://foresighteliteservices.com.au",
     ],
   },
   {
@@ -228,7 +234,7 @@ const experiences = [
     points: [
       "Developed web pages to showcase Brisbane tennis courses and Thai tennis tours, effectively attracting potential sign-ups.",
       "Gathered requirements from the director to build a website tailored to the tennis academy’s specific needs.",
-      "Website: https://scorpiontennis.com.au/",
+      "https://scorpiontennis.com.au",
     ],
     recommendationImage: scorpion_recommendation,
   },
@@ -237,7 +243,7 @@ const experiences = [
     company_name: "Gold Coast Private Hospital",
     icon: hospital,
     iconBg: "#383E56",
-    date: "January to February 2025",
+    date: "January - February 2025",
     points: [
       "Coordinated with hospital staff to schedule desktop deployments, ensuring minimal disruption to hospital operations, especially in surgery rooms.",
       "Deployed and configured new desktops for hospital staff, including nurses, doctors, and administrative personnel.",
@@ -248,9 +254,9 @@ const experiences = [
     company_name: "Tech Real Estate Sdn Bhd, Malaysia",
     icon: techreal,
     iconBg: "#383E56",
-    date: "May 2022 to December 2023",
+    date: "May 2022 - December 2023",
     points: [
-      "Leveraged market knowledge and experience in transaction negotiations to secure landed properties with favorable terms for both property purchasers and sellers.",
+      "Leveraged market knowledge and negotiation experience to secure high-end property transactions",
     ],
     recommendationImage: techreal_recommendation,
   },
@@ -346,4 +352,18 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const education = [
+  {
+    title: "Master of IT",
+    major: "Major: Software Development",
+    universityName: "Griffith University",
+    icon: griffith,
+    iconBg: "#E6DEDD",
+    date: "March 2024 - Current",
+    grade: "GPA 6.63",
+    recommendation_image: griffith_recommendation,
+    scholarship_image: griffith_scholarship,
+  },
+];
+
+export { services, technologies, experiences, projects, education };

@@ -10,26 +10,44 @@ import {
   Footer,
 } from "./components";
 import Projects from "./components/Projects";
+import Education from "./components/Education";
+import { useState } from "react";
+import ImageModal from "./components/ImageModal";
 
 function App() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedImageUrl, setSelectedImageUrl] = useState("");
+
+  const handleOpenModal = (imageUrl) => {
+    setSelectedImageUrl(imageUrl);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedImageUrl("");
+  };
   return (
     <BrowserRouter basename="/portfolio">
       <div className="relative z-0 bg-primary">
         <StarsCanvas />
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
-          {/* <Hero /> */}
         </div>
         <About />
-        <Experiences />
+        <Experiences onImageClick={handleOpenModal} />
         <Projects />
         <Tech />
-
-        <div className="relative z-0">
-          <Contact />
-        </div>
+        <Education onImageClick={handleOpenModal} />
+        <Contact />
         <Footer />
       </div>
+      <ImageModal
+        src={selectedImageUrl}
+        alt="Zoomed Image"
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+      />
     </BrowserRouter>
   );
 }

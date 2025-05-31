@@ -42,6 +42,10 @@ import scorpion_recommendation from "./scorpion_recommendation.png";
 import techreal_recommendation from "./techreal_recommendation.png";
 import ef from "./tech/entityFramework.png";
 
+import griffith from "./griffith.png";
+import griffith_recommendation from "./griffith_recommendation.png";
+import griffith_scholarship from "./griffith_scholarship.png";
+
 export {
   sql,
   dotnet,
@@ -84,4 +88,7 @@ export {
   scorpion_recommendation,
   techreal_recommendation,
   ef,
+  griffith,
+  griffith_recommendation,
+  griffith_scholarship,
 };

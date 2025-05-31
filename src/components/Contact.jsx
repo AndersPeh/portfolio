@@ -5,8 +5,6 @@ import { slideIn } from "../utils/motion";
 import { linkedin as linkedinIcon, github as githubIcon } from "../assets";
 
 const Contact = () => {
-  const email = "pehjyfung@gmail.com";
-  const phone = "0488 711 030";
   const linkedInUrl = "https://www.linkedin.com/in/anders-peh";
   const githubUrl = "https://github.com/AndersPeh";
 
@@ -19,23 +17,6 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact</h3>
 
         <div className="mt-12 flex flex-col gap-8">
-          <div>
-            <h4 className="text-white font-medium mb-2">Email</h4>
-            <a
-              href={`mailto:${email}`}
-              className=" hover:text-[#9aedb6] break-all"
-            >
-              {email}
-            </a>
-          </div>
-
-          <div>
-            <h4 className="text-white font-medium mb-2">Phone</h4>
-            <a href={`tel:${phone}`} className=" hover:text-[#9aedb6]">
-              {phone}
-            </a>
-          </div>
-
           <div>
             <h4 className="text-white font-medium mb-2">LinkedIn</h4>
             <a

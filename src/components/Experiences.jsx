@@ -8,15 +8,13 @@ import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
-import React, { useState } from "react";
-import ImageModal from "./ImageModal";
 
 const ExperienceCard = ({ experience, onImageClick }) => (
   <VerticalTimelineElement
     contentStyle={{ background: "#151030", color: "#fff" }}
     contentArrowStyle={{ borderRight: "7px solid #232631" }}
     date={experience.date}
-    dateClassName="!text-[#9aedb6] !font-extrabold"
+    dateClassName="!text-[#9aedb6] font-normal"
     iconStyle={{ background: experience.iconBg }}
     icon={
       <div className="flex justify-center items-center w-full h-full">
@@ -36,14 +34,31 @@ const ExperienceCard = ({ experience, onImageClick }) => (
     </div>
 
     <ul className="mt-5 list-disc ml-5 space-y-2">
-      {experience.points.map((point, index) => (
-        <li
-          key={`experience-point-${index}`}
-          className="text-white-100 text-[14px] pl-1 tracking-wider"
-        >
-          {point}
-        </li>
-      ))}
+      {experience.points.map((point, index) => {
+        const isUrl = point.startsWith("https://") && !point.includes(" ");
+        return (
+          <li
+            key={`experience-point-${index}`}
+            className="text-white-100 text-[14px] pl-1 tracking-wider"
+          >
+            {/* When target is _blank, open the linkin new tab. noopener means newly opened page cant access or manipulate the original page 
+            noreferrer means the orignal page source is not disclosed to the newly opened page. 
+            hover:underline means URL will show underline when mouse hovers, break-all is for breaking the URL to display responsively. */}
+            {isUrl ? (
+              <a
+                href={point}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#9aedb6] hover:underline break-all"
+              >
+                {point}
+              </a>
+            ) : (
+              point
+            )}
+          </li>
+        );
+      })}
     </ul>
 
     {experience.recommendationImage && (
@@ -64,20 +79,7 @@ const ExperienceCard = ({ experience, onImageClick }) => (
   </VerticalTimelineElement>
 );
 
-const Experiences = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedImageUrl, setSelectedImageUrl] = useState("");
-
-  const handleOpenModal = (imageUrl) => {
-    setSelectedImageUrl(imageUrl);
-    setIsModalOpen(true);
-  };
-
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
-    setSelectedImageUrl("");
-  };
-
+const Experiences = ({ onImageClick }) => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -90,17 +92,11 @@ const Experiences = () => {
             <ExperienceCard
               key={index}
               experience={experience}
-              onImageClick={handleOpenModal}
+              onImageClick={onImageClick}
             />
           ))}
         </VerticalTimeline>
       </div>
-      <ImageModal
-        src={selectedImageUrl}
-        alt="Recommendation Zoomed In"
-        isOpen={isModalOpen}
-        onClose={handleCloseModal}
-      />
     </>
   );
 };
