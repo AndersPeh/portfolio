@@ -44,21 +44,30 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-justify text-[17px] leading-[30px]"
       >
-        A motivated software development student actively developing full-stack
-        skills in{" "}
+        My passion for software development motivates me to self-learn{" "}
         <span className="text-[#9aedb6] font-bold">React (TypeScipt)</span> and{" "}
-        <span className="text-[#9aedb6] font-bold">.NET (C#)</span> through my
-        personal project in my free time. I am eager to learn from experienced
-        developers while contributing to a team, so I am seeking a software
-        development internship to start from July or earlier. Open to
-        relocation.
+        <span className="text-[#9aedb6] font-bold">.NET (C#)</span> and build my
+        personal project in my free time. I am eager to contribute to team
+        projects while working alongside experienced developers. As such, I am
+        seeking a software development internship to start from July or earlier.
+        <p className="mt-4">
+          {" "}
+          I have worked with several organisations in the Gold Coast to build
+          websites for them from scratch. This experience has enabled me to
+          quickly understand the diverse requirements of organisations across
+          different industries. I enjoy working collaboratively within a team
+          and designing websites tailored to organisations’ specific needs.
+          These projects have honed my ability to communicate effectively with
+          diverse stakeholders including those without a technical background
+          and have further developed my teamwork and communication skills.
+        </p>
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-10 text-[28px] text-[#9aedb6] font-extrabold text-center"
       >
-        I'm looking for opportunity in
+        I'm looking for an opportunity in
       </motion.p>
 
       <div className="mt-5 flex flex-wrap gap-10 items-center justify-center">

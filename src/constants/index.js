@@ -266,7 +266,7 @@ const projects = [
   {
     name: "Student Connect",
     description:
-      "Identified a lack of a centralised platform for 1.6 million university students in Australia to connect across universities. Currently developing a full-stack application using React and .NET to address the need.",
+      "I like observing what is happening around me to identify problems and come up with solutions. For example, I have noticed that students often struggle to find other students in their university or across different universities, to join professional events or social activities. There are too many social media groups filled with spam and often become inactive. These observations led me to start my personal project, “StudentConnect”, a centralised app designed to allow students to connect across different universities. This effort highlights my proactive approach to problem-solving and my commitment to developing practical solutions.",
     tags: [
       {
         name: "React",

@@ -82,10 +82,22 @@ const Projects = () => {
       <div className="w-full flex">
         <motion.p
           // variants={fadeIn('', '', 0.1, 1)}
-          className="mt-5 text-[18px] leading-[30px]"
+          className="mt-5 text-[18px] leading-[30px] text-justify"
         >
-          The following projects showcase my passion in software development
-          through projects. Click on a card to visit the project's GitHub.
+          Click on any card to visit the project's GitHub.
+          <p className="mt-4">
+            {" "}
+            After building an Ecommerce mobile app using the React Native
+            framework and JavaScript, I became interested in TypeScript due to
+            its error detection capabilities during the development stage and
+            became curious about the multi-threaded language C#. After speaking
+            to some industry professionals at networking events, I noticed that
+            many organisations adopt React and .NET in their applications. This
+            insight motivated me to self-learn them and apply them to my
+            personal project. It demonstrates my commitment to learning new
+            skills and staying informed about industry trends through active
+            learning and professional networking.
+          </p>
         </motion.p>
       </div>
 
