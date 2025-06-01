@@ -193,7 +193,7 @@ const experiences = [
     company_name: "Little Cocoa, Qld",
     icon: littlecocoa,
     iconBg: "#383E56",
-    date: "Oct 2024 - April 2025",
+    date: "Oct 2024 - Apr 2025",
     points: [
       "Successfully migrated https://littlecocoa.com.au to a new server by provisioning a server, configuring DNS settings and transferred web files using SFTP.",
       "Collaborated with director and chocolatiers to improve user experience of the website.",
@@ -205,7 +205,7 @@ const experiences = [
     company_name: "East Coast Whale Study, Qld",
     icon: eastcoast,
     iconBg: "#E6DEDD",
-    date: "September 2024 - Current",
+    date: "Sept 2024 - Current",
     points: [
       "Collaborate closely with the founding director to understand her vision and requirements, translating them into website features and content that effectively represent the Not-for-profit organisation's mission.",
       "Carry out the development of a responsive, user-friendly website for the charity, built from scratch.",
@@ -218,7 +218,7 @@ const experiences = [
     company_name: "Foresight Elite Services, Qld",
     icon: foresight,
     iconBg: "#383E56",
-    date: "February 2025",
+    date: "Feb 2025",
     points: [
       "Built a custom website from scratch by understanding the business needs and collaborating directly with the director.",
       "Created graphic elements using Canva to enhance the website's design.",
@@ -230,7 +230,7 @@ const experiences = [
     company_name: "Scorpion International Tennis Academy, Qld",
     icon: scorpion,
     iconBg: "#383E56",
-    date: "January 2025",
+    date: "Jan 2025",
     points: [
       "Developed web pages to showcase Brisbane tennis courses and Thai tennis tours, effectively attracting potential sign-ups.",
       "Gathered requirements from the director to build a website tailored to the tennis academy’s specific needs.",
@@ -243,7 +243,7 @@ const experiences = [
     company_name: "Gold Coast Private Hospital",
     icon: hospital,
     iconBg: "#383E56",
-    date: "January - February 2025",
+    date: "Jan - Feb 2025",
     points: [
       "Coordinated with hospital staff to schedule desktop deployments, ensuring minimal disruption to hospital operations, especially in surgery rooms.",
       "Deployed and configured new desktops for hospital staff, including nurses, doctors, and administrative personnel.",
@@ -254,7 +254,7 @@ const experiences = [
     company_name: "Tech Real Estate Sdn Bhd, Malaysia",
     icon: techreal,
     iconBg: "#383E56",
-    date: "May 2022 - December 2023",
+    date: "May 2022 - Dec 2023",
     points: [
       "Leveraged market knowledge and negotiation experience to secure high-end property transactions",
     ],
@@ -359,7 +359,7 @@ const education = [
     universityName: "Griffith University",
     icon: griffith,
     iconBg: "#E6DEDD",
-    date: "March 2024 - Current",
+    date: "Mar 2024 - Current",
     grade: "GPA 6.63",
     recommendation_image: griffith_recommendation,
     scholarship_image: griffith_scholarship,
