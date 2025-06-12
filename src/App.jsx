@@ -34,10 +34,12 @@ function App() {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
         </div>
+
         <About />
+        <Tech />
+
         <Experiences onImageClick={handleOpenModal} />
         <Projects />
-        <Tech />
         <Education onImageClick={handleOpenModal} />
         <Contact />
         <Footer />

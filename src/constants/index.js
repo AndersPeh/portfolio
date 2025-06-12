@@ -293,7 +293,7 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "Mobx",
+        name: "React Query",
         color: "pink-text-gradient",
       },
       {
