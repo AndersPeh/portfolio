@@ -47,9 +47,8 @@ const About = () => {
         My passion for software development motivates me to self-learn{" "}
         <span className="text-[#9aedb6] font-bold">React (TypeScipt)</span> and{" "}
         <span className="text-[#9aedb6] font-bold">.NET (C#)</span> and build my
-        personal project in my free time. I am eager to contribute to team
-        projects while working alongside experienced developers. As such, I am
-        seeking a software development internship to start from July or earlier.
+        personal project in my free time. I am eager to contribute to company
+        projects while working alongside experienced developers.
         <p className="mt-4">
           {" "}
           I have worked with several organisations in the Gold Coast to build

@@ -81,7 +81,6 @@ const Navbar = () => {
             Anders Peh &nbsp;
             <span className="block md:inline text-[14px] sm:text-[18px]">
               {" "}
-              | Seeking Tech Internship
             </span>
           </p>
 

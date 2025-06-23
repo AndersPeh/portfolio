@@ -39,6 +39,7 @@ import {
   griffith,
   griffith_recommendation,
   griffith_scholarship,
+  mediatr,
   // bootstrap,
   // nextJs,
   // scss,
@@ -109,13 +110,18 @@ const technologies = [
     name: "C#",
     icon: csharp,
   },
+
+  {
+    name: "EF Core",
+    icon: ef,
+  },
   {
     name: "Fluent Validation",
     icon: fluentValid,
   },
   {
-    name: "EF Core",
-    icon: ef,
+    name: "MediatR",
+    icon: mediatr,
   },
   {
     name: "Postman",
@@ -134,10 +140,10 @@ const technologies = [
     name: "React Native",
     icon: reactnative,
   },
-  {
-    name: "Mobx",
-    icon: mobx,
-  },
+  // {
+  //   name: "Mobx",
+  //   icon: mobx,
+  // },
   {
     name: "React Query",
     icon: rquery,
