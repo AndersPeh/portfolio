@@ -40,6 +40,7 @@ import {
   griffith_recommendation,
   griffith_scholarship,
   mediatr,
+  comtrac,
   // bootstrap,
   // nextJs,
   // scss,
@@ -194,6 +195,16 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Software Development Intern",
+    company_name: "Comtrac, Brisbane",
+    icon: comtrac,
+    iconBg: "#383E56",
+    date: "Jul 2025 - Current",
+    points: [
+      "Carry out Software Development tasks to support the AI Investigation Management platform.",
+    ],
+  },
   {
     title: "IT Support (Casual)",
     company_name: "Little Cocoa, Qld",

@@ -82,7 +82,7 @@ const Projects = () => {
       <div className="w-full flex">
         <motion.p
           // variants={fadeIn('', '', 0.1, 1)}
-          className="mt-5 text-[18px] leading-[30px] text-justify"
+          className="text-[18px] leading-[30px] text-justify"
         >
           Click on any card to visit the project's GitHub.
           <p className="mt-4">

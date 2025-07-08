@@ -21,7 +21,7 @@ const ExperienceCard = ({ experience, onImageClick }) => (
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain rounded-full"
+          className="w-[100%] h-[100%] object-contain rounded-full"
         />
       </div>
     }
@@ -82,23 +82,23 @@ const ExperienceCard = ({ experience, onImageClick }) => (
 const Experiences = ({ onImageClick }) => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Experiences</h2>
-      </motion.div>
+      <div>
+        <h2 className={`${styles.sectionHeadText}`}>Experiences</h2>
 
-      <p className="mt-4 text-justify text-[17px] leading-[30px]">
-        {" "}
-        I have worked with several organisations in the South East Queensland to
-        build websites for them from scratch. This experience has enabled me to
-        quickly understand the diverse requirements of organisations across
-        different industries. I enjoy working collaboratively within a team and
-        designing websites tailored to organisations’ specific needs. These
-        projects have honed my ability to communicate effectively with diverse
-        stakeholders including those without a technical background and have
-        further developed my teamwork and communication skills.
-      </p>
+        <p className="text-justify text-[17px] leading-[30px]">
+          {" "}
+          I have worked with organisations in the South East Queensland to build
+          websites for them from scratch. This experience has enabled me to
+          quickly understand the diverse requirements across different
+          industries. I enjoy working collaboratively within a team and
+          developing websites tailored to organisations’ specific needs. These
+          projects have honed my ability to communicate effectively with diverse
+          stakeholders including those without a technical background and have
+          further developed my teamwork and communication skills.
+        </p>
+      </div>
 
-      <div className="mt-10 flex flex-col">
+      <div className="flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard

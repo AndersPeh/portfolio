@@ -55,13 +55,11 @@ const EducationCard = ({ education, onImageClick }) => {
 const Education = ({ onImageClick }) => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText} text-center mb-12`}>
-          Education
-        </h2>
-      </motion.div>
+      <div>
+        <h2 className={`${styles.sectionHeadText}`}>Education</h2>
+      </div>
 
-      <div className="mt-10 flex flex-wrap gap-7 justify-center">
+      <div className="flex flex-wrap gap-7 justify-center">
         {education.map((eduItem, index) => (
           <EducationCard
             key={`education-card-${index}`}
