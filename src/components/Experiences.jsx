@@ -98,7 +98,7 @@ const Experiences = ({ onImageClick }) => {
         further developed my teamwork and communication skills.
       </p>
 
-      <div className=" flex flex-col">
+      <div className="mt-10 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
