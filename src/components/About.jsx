@@ -33,33 +33,22 @@ const About = () => {
     <>
       <motion.div variants={textVariant()} className="mt-5">
         <h2 className={`${styles.sectionHeadText} text-white`}>
-          Good day, I&apos;m <span className="text-[#9aedb6]">Jy Fung Peh</span>
+          Good day, I&apos;m{" "}
+          <span className="text-[#9aedb6]">Jy Fung (Anders) Peh</span>
         </h2>
-        <h3 className={` text-white font-extrabold text-[20px]`}>
-          You can call me Anders.
-        </h3>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-justify text-[17px] leading-[30px]"
       >
-        My passion for software development motivates me to self-learn{" "}
+        I enjoy self-learning{" "}
         <span className="text-[#9aedb6] font-bold">React (TypeScipt)</span> and{" "}
-        <span className="text-[#9aedb6] font-bold">.NET (C#)</span> and build my
-        personal project in my free time. I am eager to contribute to company
-        projects while working alongside experienced developers.
-        <p className="mt-4">
-          {" "}
-          I have worked with several organisations in the Gold Coast to build
-          websites for them from scratch. This experience has enabled me to
-          quickly understand the diverse requirements of organisations across
-          different industries. I enjoy working collaboratively within a team
-          and designing websites tailored to organisations’ specific needs.
-          These projects have honed my ability to communicate effectively with
-          diverse stakeholders including those without a technical background
-          and have further developed my teamwork and communication skills.
-        </p>
+        <span className="text-[#9aedb6] font-bold">.NET (C#)</span> in my own
+        time. I am currently applying my learning to build a full-stack personal
+        project. I am excited for an opportunity where I can contribute to
+        company projects, take on responsibility and grow alongside experienced
+        developers.
       </motion.p>
 
       <motion.p

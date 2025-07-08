@@ -86,6 +86,18 @@ const Experiences = ({ onImageClick }) => {
         <h2 className={styles.sectionHeadText}>Experiences</h2>
       </motion.div>
 
+      <p className="mt-4 text-justify text-[17px] leading-[30px]">
+        {" "}
+        I have worked with several organisations in the South East Queensland to
+        build websites for them from scratch. This experience has enabled me to
+        quickly understand the diverse requirements of organisations across
+        different industries. I enjoy working collaboratively within a team and
+        designing websites tailored to organisations’ specific needs. These
+        projects have honed my ability to communicate effectively with diverse
+        stakeholders including those without a technical background and have
+        further developed my teamwork and communication skills.
+      </p>
+
       <div className=" flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
