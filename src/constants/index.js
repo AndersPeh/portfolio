@@ -202,7 +202,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jul 2025 - Current",
     points: [
-      "Carry out Software Development tasks to support the AI Investigation Management platform.",
+      "Applied project management skills to create a detailed 13-week internship proposal, which involved defining the project scope, key deliverables, success metrics and risk mitigation strategies.",
+      "Working alongside senior developers to contribute to the C#/.NET backend, where I will develop APIs, write unit tests, and fix bugs to improve application quality.",
+      "Will be rotating to the DevOps team in September to work on improving IaC scripts and CI/CD pipelines in Microsoft Azure.",
+      "Working within the team's ShapeUp framework, engaging in technical and client meetings to align my work with commercial goals.",
     ],
   },
   {
@@ -212,9 +215,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "Oct 2024 - Apr 2025",
     points: [
-      "Migrated https://littlecocoa.com.au to a new server, which reduced hosting costs by 80% annually",
-      "Collaborated with the team to enhance the website by implementing features like a delivery method, delivery calendar and order notes, resulting in a 70% reduction in delivery timing related queries.",
-      "Automated processes between ERPNext and the website using n8n, which enabled automatic replies to customer inquiries and streamlined the recording of order details.",
+      "Migrated https://littlecocoa.com.au to a new server, which reduced hosting costs by 60% annually.",
+      "Collaborated with the team to enhance the website by implementing features like a delivery method, delivery calendar and order notes, led to a 50% reduction in delivery timing related queries.",
     ],
   },
   {
@@ -260,7 +262,7 @@ const experiences = [
     company_name: "Gold Coast Private Hospital",
     icon: hospital,
     iconBg: "#383E56",
-    date: "Jan - Feb 2025",
+    date: "Feb 2025",
     points: [
       "Coordinated with hospital staff to schedule desktop deployments, ensuring minimal disruption to hospital operations, especially in surgery rooms.",
       "Deployed and configured new desktops for hospital staff, including nurses, doctors, and administrative personnel.",
@@ -271,9 +273,9 @@ const experiences = [
     company_name: "Tech Real Estate Sdn Bhd, Malaysia",
     icon: techreal,
     iconBg: "#383E56",
-    date: "May 2022 - Dec 2023",
+    date: "June 2022 - June 2023",
     points: [
-      "Leveraged market knowledge and negotiation experience to secure high-end property transactions",
+      "Advised clients on high-end property transactions by analysing market data, valuations and home lending options, while liaising with bankers and lawyers to secure deals.",
     ],
     recommendationImage: techreal_recommendation,
   },

@@ -33,8 +33,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()} className="mt-5">
         <h2 className={`${styles.sectionHeadText} text-white`}>
-          Good day, I&apos;m{" "}
-          <span className="text-[#9aedb6]">Jy Fung (Anders) Peh</span>
+          Good day, I&apos;m <span className="text-[#9aedb6]">Anders Peh</span>
         </h2>
       </motion.div>
 
@@ -42,13 +41,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-justify text-[17px] leading-[30px]"
       >
-        I enjoy self-learning{" "}
-        <span className="text-[#9aedb6] font-bold">React (TypeScipt)</span> and{" "}
-        <span className="text-[#9aedb6] font-bold">.NET (C#)</span> in my own
-        time. I am currently applying my learning to build a full-stack personal
-        project. I am excited for an opportunity where I can contribute to
-        company projects, take on responsibility and grow alongside experienced
-        developers.
+        I'm a Master of IT student with a passion for building clean and
+        user-focused applications using my full-stack development skills. My
+        background in real estate has equipped me with strong stakeholder
+        communication skills, which allows me to bridge the gap between
+        technical implementation and business needs. I am driven by the process
+        of identifying a problem, developing a solution, and building it from
+        the ground up.
       </motion.p>
 
       <motion.p
