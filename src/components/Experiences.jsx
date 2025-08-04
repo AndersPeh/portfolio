@@ -39,9 +39,9 @@ const ExperienceCard = ({ experience, onImageClick }) => (
         return (
           <li
             key={`experience-point-${index}`}
-            className="text-white-100 text-[14px] pl-1 tracking-wider"
+            className="text-white-100 text-[14px] pl-1 tracking-wider text-justify"
           >
-            {/* When target is _blank, open the linkin new tab. noopener means newly opened page cant access or manipulate the original page 
+            {/* When target is _blank, open the Linkedin new tab. noopener means newly opened page cant access or manipulate the original page 
             noreferrer means the orignal page source is not disclosed to the newly opened page. 
             hover:underline means URL will show underline when mouse hovers, break-all is for breaking the URL to display responsively. */}
             {isUrl ? (
@@ -85,7 +85,7 @@ const Experiences = ({ onImageClick }) => {
       <div>
         <h2 className={`${styles.sectionHeadText}`}>Experiences</h2>
 
-        <p className="text-justify text-[17px] leading-[30px]">
+        {/* <p className="text-justify text-[17px] leading-[30px]">
           {" "}
           I have worked with organisations in the South East Queensland to build
           websites for them from scratch. This experience has enabled me to
@@ -95,7 +95,7 @@ const Experiences = ({ onImageClick }) => {
           projects have honed my ability to communicate effectively with diverse
           stakeholders including those without a technical background and have
           further developed my teamwork and communication skills.
-        </p>
+        </p> */}
       </div>
 
       <div className="flex flex-col">
