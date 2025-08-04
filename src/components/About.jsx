@@ -46,8 +46,8 @@ const About = () => {
         background in real estate has equipped me with strong stakeholder
         communication skills, which allows me to bridge the gap between
         technical implementation and business needs. I am driven by the process
-        of identifying a problem, developing a solution, and building it from
-        the ground up.
+        of identifying a problem, developing a solution and building it from
+        scratch.
       </motion.p>
 
       <motion.p

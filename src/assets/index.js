@@ -46,7 +46,7 @@ import griffith from "./griffith.png";
 import griffith_recommendation from "./griffith_recommendation.png";
 import griffith_scholarship from "./griffith_scholarship.png";
 import comtrac from "./company/comtrac.png";
-import Azure from ".tech/Azure.jpg";
+import Azure from "./tech/Azure.jpg";
 
 export {
   Azure,
