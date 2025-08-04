@@ -41,6 +41,7 @@ import {
   griffith_scholarship,
   mediatr,
   comtrac,
+  Azure,
   // bootstrap,
   // nextJs,
   // scss,
@@ -185,8 +186,8 @@ const technologies = [
   },
 
   {
-    name: "Material UI",
-    icon: mui,
+    name: "Azure",
+    icon: Azure,
   },
   {
     name: "GitHub",
@@ -285,7 +286,7 @@ const projects = [
   {
     name: "Student Connect",
     description:
-      "I like observing what is happening around me to identify problems and come up with solutions. For example, I have noticed that students often struggle to find other students in their university or across different universities, to join professional events or social activities. There are too many social media groups filled with spam and often become inactive. These observations led me to start my personal project, “StudentConnect”, a centralised app designed to allow students to connect across different universities. This effort highlights my proactive approach to problem-solving and my commitment to developing practical solutions.",
+      "My approach to software is driven by observation. I noticed that students often struggle to find friends to join professional events or social activities across different universities. Existing platforms were cluttered and inefficient. This inspired me to architect and build StudentConnect, a full-stack application designed to solve this community need. This project is my playground for implementing clean architecture with .NET and building a dynamic, responsive user experience with React and TypeScript.",
     tags: [
       {
         name: "React",
