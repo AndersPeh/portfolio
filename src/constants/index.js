@@ -4,9 +4,6 @@ import {
   html,
   css,
   reactjs,
-  // redux,
-  // tailwind,
-  // mongodb,
   github,
   dotnet,
   csharp,
@@ -42,19 +39,7 @@ import {
   mediatr,
   comtrac,
   Azure,
-  // bootstrap,
-  // nextJs,
-  // scss,
-  // nestJs,
-  // spring,
-  // aws,
-  // fireStore,
-  // MUI,
-  // django,
-  // figma,
-  // docker,
-  // python,
-  // dreamlife,
+  dev,
 } from "../assets";
 
 export const navLinks = [
@@ -82,20 +67,8 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Software Development",
-    icon: fullstack,
-  },
-  {
-    title: "Frontend Development",
-    icon: reactjs,
-  },
-  {
-    title: "Backend Development",
-    icon: dotnet,
-  },
-  {
-    title: "Mobile App Development",
-    icon: reactnative,
+    title: "Software Development",
+    icon: dev,
   },
 ];
 
@@ -204,9 +177,9 @@ const experiences = [
     date: "Jul 2025 - Current",
     points: [
       "Applied project management skills to create a detailed 13-week internship proposal, which involved defining the project scope, key deliverables, success metrics and risk mitigation strategies.",
-      "Working alongside senior developers to contribute to the C#/.NET backend, where I will develop APIs, write unit tests, and fix bugs to improve application quality.",
-      "Will be rotating to the DevOps team in September to work on improving IaC scripts and CI/CD pipelines in Microsoft Azure.",
-      "Working within the team's ShapeUp framework, engaging in technical and client meetings to align my work with commercial goals.",
+      "Contribute to the C#/.NET backend: develop APIs, write unit tests, and fix bugs to improve application quality.",
+      "Scheduled to rotate to the DevOps team in September 2025 to improve IaC scripts and CI/CD pipelines in Microsoft Azure.",
+      "Collaborate within a Shape Up framework, engaging in technical and client meetings to align work with commercial goals.",
     ],
   },
   {

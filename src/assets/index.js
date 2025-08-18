@@ -47,6 +47,7 @@ import griffith_recommendation from "./griffith_recommendation.png";
 import griffith_scholarship from "./griffith_scholarship.png";
 import comtrac from "./company/comtrac.png";
 import Azure from "./tech/Azure.jpg";
+import dev from "./tech/dev.png";
 
 export {
   Azure,
@@ -96,4 +97,5 @@ export {
   griffith_scholarship,
   mediatr,
   comtrac,
+  dev,
 };

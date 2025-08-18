@@ -8,17 +8,21 @@ import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
-      <motion.div className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
-        <div
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450,
-          }}
-          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
-        >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+    <Tilt
+      className="xs:w-[280px] w-full"
+      options={{ max: 35, scale: 1.02, speed: 450 }}
+    >
+      <motion.div
+        variants={fadeIn("up", "spring", index * 0.2, 0.8)}
+        whileHover={{ scale: 1.03 }}
+        className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+      >
+        <div className="bg-tertiary rounded-[20px] py-8 px-12 min-h-[320px] flex justify-evenly items-center flex-col">
+          <img
+            src={icon}
+            alt={title}
+            className="w-24 h-24 md:w-28 md:h-28 object-contain"
+          />
           <h3 className="text-[20px] font-bold text-center text-white">
             {title}
           </h3>
@@ -33,7 +37,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()} className="mt-5">
         <h2 className={`${styles.sectionHeadText} text-white`}>
-          Good day, I&apos;m <span className="text-[#9aedb6]">Anders Peh</span>
+          Hi, I&apos;m <span className="text-[#9aedb6]">Anders Peh</span>
         </h2>
       </motion.div>
 
@@ -41,13 +45,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-justify text-[17px] leading-[30px]"
       >
-        I'm a Master of IT student with a passion for building clean and
-        user-focused applications using my full-stack development skills. My
-        background in real estate has equipped me with strong stakeholder
-        communication skills, which allows me to bridge the gap between
-        technical implementation and business needs. I am driven by the process
-        of identifying a problem, developing a solution and building it from
-        scratch.
+        I am a Master of IT student with demonstrated skills in software
+        development. My professional background has given me strong
+        problem-solving and stakeholder communication skills. I am looking to
+        apply my technical abilities and contribute to company projects while
+        working in a collaborative team. I am passionate about tech‑driven
+        buildings and how automation and efficiency improve daily life, which
+        motivates me to keep improving my software development skills and to
+        lead technology projects that make a practical difference.
       </motion.p>
 
       <motion.p
