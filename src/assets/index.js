@@ -6,8 +6,6 @@ import github from "./github.png";
 import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import python from "./python.png";
-import nextJs from "./tech/nextjs.png";
 import css from "./tech/css.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -48,6 +46,11 @@ import griffith_scholarship from "./griffith_scholarship.png";
 import comtrac from "./company/comtrac.png";
 import Azure from "./tech/Azure.jpg";
 import dev from "./tech/dev.png";
+import fluentassertions from "./tech/fluentassertions.png";
+import moq from "./tech/moq.png";
+import signalr from "./tech/signalr.png";
+import xunit from "./tech/xunit.png";
+
 
 export {
   Azure,
@@ -98,4 +101,8 @@ export {
   mediatr,
   comtrac,
   dev,
+  xunit,
+  signalr,
+  moq,
+  fluentassertions
 };

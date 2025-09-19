@@ -1,8 +1,5 @@
 import {
-  javascript,
   typescript,
-  html,
-  css,
   reactjs,
   github,
   dotnet,
@@ -11,12 +8,8 @@ import {
   sql,
   cleanArchi,
   hookForm,
-  mobx,
-  mui,
   rquery,
   axios,
-  fullstack,
-  node,
   postman,
   fluentValid,
   rrouter,
@@ -25,14 +18,12 @@ import {
   littlecocoa,
   foresight,
   scorpion,
-  techreal,
   hospital,
   studentconnect,
   glasses,
   ecommerce,
   eastcoast_recommendation,
   scorpion_recommendation,
-  techreal_recommendation,
   griffith,
   griffith_recommendation,
   griffith_scholarship,
@@ -40,6 +31,10 @@ import {
   comtrac,
   Azure,
   dev,
+  signalr,
+  moq,
+  xunit,
+  fluentassertions
 } from "../assets";
 
 export const navLinks = [
@@ -98,6 +93,21 @@ const technologies = [
     name: "MediatR",
     icon: mediatr,
   },
+
+  {
+    name: "SignalR",
+    icon: signalr,
+  },  {
+    name: "Moq",
+    icon: moq,
+  },  {
+    name: "xUnit",
+    icon: xunit,
+  },  {
+    name: "Fluent Assertions",
+    icon: fluentassertions,
+  },
+
   {
     name: "Postman",
     icon: postman,
@@ -115,10 +125,7 @@ const technologies = [
     name: "React Native",
     icon: reactnative,
   },
-  // {
-  //   name: "Mobx",
-  //   icon: mobx,
-  // },
+
   {
     name: "React Query",
     icon: rquery,
@@ -136,26 +143,8 @@ const technologies = [
     icon: hookForm,
   },
   {
-    name: "Node JS",
-    icon: node,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
-  },
-
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-
-  {
-    name: "JavaScript",
-    icon: javascript,
   },
 
   {
