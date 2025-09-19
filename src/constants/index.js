@@ -177,8 +177,7 @@ const experiences = [
     date: "Jul 2025 - Current",
     points: [
       "Applied project management skills to create a detailed 13-week internship proposal, which involved defining the project scope, key deliverables, success metrics and risk mitigation strategies.",
-      "Contribute to the C#/.NET backend: develop APIs, write unit tests, and fix bugs to improve application quality.",
-      "Scheduled to rotate to the DevOps team in September 2025 to improve IaC scripts and CI/CD pipelines in Microsoft Azure.",
+      "Contribute to the C#/.NET backend: develop APIs and write unit tests to improve application quality.",
       "Collaborate within a Shape Up framework, engaging in technical and client meetings to align work with commercial goals.",
     ],
   },
@@ -241,17 +240,6 @@ const experiences = [
       "Coordinated with hospital staff to schedule desktop deployments, ensuring minimal disruption to hospital operations, especially in surgery rooms.",
       "Deployed and configured new desktops for hospital staff, including nurses, doctors, and administrative personnel.",
     ],
-  },
-  {
-    title: "Senior Real Estate Negotiator (Full Time)",
-    company_name: "Tech Real Estate Sdn Bhd, Malaysia",
-    icon: techreal,
-    iconBg: "#383E56",
-    date: "June 2022 - June 2023",
-    points: [
-      "Advised clients on high-end property transactions by analysing market data, valuations and home lending options, while liaising with bankers and lawyers to secure deals.",
-    ],
-    recommendationImage: techreal_recommendation,
   },
 ];
 
